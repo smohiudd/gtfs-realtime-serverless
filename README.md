@@ -10,7 +10,11 @@ Simple Lambda function using Serverless Framework. GTFS Realtime protocol buffer
 
 `http://localhost:3000/`
 
-## Deploy to AWS Lambda using serverless
+**You will see JSON output of the GTFS Realtime Protobuf:**
+
+(https://nodalscapes.files.wordpress.com/2018/10/gtfs-realtime.png)
+
+## Deploy to AWS Lambda using Serverless
 
 Yan Cui has a great [article](https://hackernoon.com/using-protocol-buffers-with-api-gateway-and-aws-lambda-22c3804f3e76) about deploying to AWS Lambda using Mac OSX. Since the Lambda environment is run on Linux, the node module package binaries installed on your OSX machine will not work on AWS.
 
