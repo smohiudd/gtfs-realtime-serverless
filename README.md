@@ -12,7 +12,7 @@ Simple Lambda function using Serverless Framework. GTFS Realtime protocol buffer
 
 **You will see JSON output of the GTFS Realtime Protobuf:**
 
-(https://nodalscapes.files.wordpress.com/2018/10/gtfs-realtime.png)
+![GTFS Realtime output](https://nodalscapes.files.wordpress.com/2018/10/gtfs-realtime.png)
 
 ## Deploy to AWS Lambda using Serverless
 
