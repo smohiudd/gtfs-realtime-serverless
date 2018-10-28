@@ -1,0 +1,20 @@
+{
+  "name": "gtfs_realtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^1.32.0",
+    "serverless-offline": "^3.30.0"
+  },
+  "dependencies": {
+    "protobufjs": "^6.8.8",
+    "request": "^2.88.0"
+  }
+}

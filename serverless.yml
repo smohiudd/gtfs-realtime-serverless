@@ -1,0 +1,18 @@
+service: gtfs-realtime
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-1
+
+functions:
+  gtfs:
+    handler: handler.gtfs
+    events:
+      - http:
+          path: ''
+          method: get
+          cors: true
