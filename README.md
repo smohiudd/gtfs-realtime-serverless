@@ -1,6 +1,10 @@
 # Deploy GTFS Realtime using Serverless
 
-Simple Lambda function using Serverless Framework. GTFS Realtime protocol buffer is decoded using Protobufjs.
+Simple Lambda function using Serverless Framework to decode GTFS protocol buffers as JSON content.
+
+General Transit Feed Specification (GTFS) is a standardized format for public transportation schedules and geographic information. GTFS Realtime information on realtime information about disruptions to their service, vehicle location and expected arrival times [(http://gtfs.org)](http://gtfs.org/realtime/).
+
+GTFS Realtime protocol buffer is decoded using Protobufjs.
 
 **Run Locally**
 
